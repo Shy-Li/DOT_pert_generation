@@ -35,6 +35,6 @@ The training & validation is done by `tar_to_pert_train.py`. The users need to r
 The pre-trained model is saved in `TarToPert_epoch200_bz64_lr0.0001_neck128_reg1e-05_noise_2.0.pth`.
 
 ## Testing
-A sample testing code is given in 'main_phantom_tar2pert.py'. 
+A sample testing code is given in `main_phantom_tar2pert.py`. 
 
 ## Citation

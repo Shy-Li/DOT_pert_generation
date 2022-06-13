@@ -20,21 +20,21 @@ The code was tested with Python 3.7.11.
 
 Required packages: 
  - pytorch 1.8.1
- - numpy 1.12.1
- - pandas 1.1.3
- - matplotlib 3.4.3
- - scikit-learn 0.24.2
+ - numpy 
+ - pandas 
+ - matplotlib 
+ - scikit-learn 
  
 ## Model 
-The MLP model is the class `TarToPert` in `models.py`. The bottleneck is tunable by changing the parameter "neck". 
+The MLP model is the class `TarToPert` in `models.py`. The bottleneck is tunable by changing the parameter "neck". The MLP model structures may need to be changed according to uses' DOT system configuration and the size of the dataset. 
 
 ## Training
-The training & validation is done by `tar_to_pert_train.py`. The users need to replace the dataset with their own. 
+The training & validation is done by `tar_to_pert_train.py`. The users need to use the dataset with their own. 
 
 ## Pretrained
-The pre-trained model is saved in `TarToPert_epoch200_bz64_lr0.0001_neck128_reg1e-05_noise_2.0.pth`.
+The pre-trained model is saved in `TarToPert_pretrained.pth`. 
 
 ## Testing
-A sample testing code is given in `main_phantom_tar2pert.py`. 
+A sample testing code is given in `main_phantom_tar2pert.py`. Sample phantom data was given as `phantom_tar1.csv` and the generated perturbation will be saved as `pert_pred_phantom.csv'. 
 
 ## Citation

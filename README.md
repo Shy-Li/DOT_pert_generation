@@ -12,8 +12,8 @@ A MLP model to generate data for DOT difference imaging from target measurements
 - [Citation](#citation)
 
 ## Background
-### Significance: “Difference imaging”, which reconstructs target optical properties using measurements with and without target information, is often used in diffuse optical tomography (DOT) in vivo imaging. However, taking additional reference measurements is time-consuming, and mismatches between the target medium and the reference medium can cause inaccurate reconstruction. 
-### Aim: We aim to simplify the data acquisition and mitigate the mismatch problems in DOT difference imaging by using a deep learning-based approach to generate data from target measurements only. 
+Significance: “Difference imaging”, which reconstructs target optical properties using measurements with and without target information, is often used in diffuse optical tomography (DOT) in vivo imaging. However, taking additional reference measurements is time-consuming, and mismatches between the target medium and the reference medium can cause inaccurate reconstruction. 
+Aim: We aim to simplify the data acquisition and mitigate the mismatch problems in DOT difference imaging by using a deep learning-based approach to generate data from target measurements only. 
 
 ## Install
 The code was tested with Python 3.7.11.
@@ -38,3 +38,4 @@ The pre-trained model is saved in `TarToPert_pretrained.pth`.
 A sample testing code is given in `main_phantom_tar2pert.py`. Sample phantom data was given as `phantom_tar1.csv` and the generated perturbation will be saved as `pert_pred_phantom.csv'. 
 
 ## Citation
+Li, S., Zhang, M., Xue, M. and Zhu, Q., 2022. Difference imaging from single measurements in diffuse optical tomography: a deep learning approach. Journal of Biomedical Optics, 27(8), p.086003.
